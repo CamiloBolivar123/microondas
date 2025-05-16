@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(mapa);
 
 L.marker([4.628178084725448, -74.0659272612135]).addTo(mapa)
-    .bindPopup('Esta es nuestra universidad')
+    .bindPopup('UD')
     .openPopup();
 
 async function cargarPuntos() {
@@ -33,19 +33,19 @@ async function cargarPuntos() {
                 const marcador = L.marker(latLng).addTo(mapa);
 
                 console.log(`Punto ${i + 1}`);
-                console.log("Modelo:", propiedades.Modelo);
-                console.log("Capacidad:", propiedades.Capacidad);
-                console.log("Precio:", propiedades.Precio);
-                console.log("Potencia:", propiedades.Potencia);
-                console.log("Voltaje:", propiedades.Voltaje);
+                console.log("Modelo:", propiedades.modelo);
+                console.log("Capacidad:", propiedades.capacidad);
+                console.log("Precio:", propiedades.precio);
+                console.log("Potencia:", propiedades.potencia);
+                console.log("Voltaje:", propiedades.voltaje);
                 console.log("---------------");
 
                 const contenidoPopup = `
-                    <strong>Modelo:</strong> ${propiedades.Modelo}<br>
-                    <strong>Capacidad:</strong> ${propiedades.Capacidad} L<br>
-                    <strong>Precio:</strong> $${propiedades.Precio}<br>
-                    <strong>Potencia:</strong> ${propiedades.Potencia} W<br>
-                    <strong>Voltaje:</strong> ${propiedades.Voltaje} V
+                    <strong>Modelo:</strong> ${propiedades.modelo}<br>
+                    <strong>Capacidad:</strong> ${propiedades.capacidad} L<br>
+                    <strong>Precio:</strong> $${propiedades.precio}<br>
+                    <strong>Potencia:</strong> ${propiedades.potencia} W<br>
+                    <strong>Voltaje:</strong> ${propiedades.voltaje} V
                 `;
 
                 marcador.bindPopup(contenidoPopup);

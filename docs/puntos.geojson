@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "feature",
+      "geometry": {
+        "type": "point",
+        "coordinates": [ 4.680069772241267, -74.08536501505026]
+      },
+      "propierties": {
+        "Alto": 25.9,
+        "Ancho": 44,
+        "Profundidad": "N/E",
+          "capacidad": 20,
+          "modelo": "K-MW07N",
+          "potencia":700 ,
+          "voltaje": 115, 
+          "precio": 269.900
+        }
+    },
+    {
+      "type": "feature",
+      "geometry": {
+        "type": "point",
+        "coordinates": [4.640319068752517, -74.06596380417389 ]
+      },
+      "propierties": {
+        "Alto": 26.2,
+        "Ancho": 45.2,
+        "Profundidad": 36,
+          "capacidad": 19,
+          "modelo": "M07SEJ",
+          "potencia":600 ,
+          "voltaje": "N/E",
+          "precio":  308.115
+        }
+    },
+    {
+      "type": "feature",
+      "geometry": {
+        "type": "point",
+        "coordinates": [4.646631250497499, -74.0757757379633]
+      },
+      "propierties": {
+        "Alto": 25.8,
+        "Ancho": 44,
+        "Profundidad": "N/E",
+          "capacidad": 20,
+          "modelo": "RMD-CUCINA20-B",
+          "potencia":1050 ,
+          "voltaje": "N/E",
+          "precio":  249.900
+        }
+    },
+    {
+      "type": "feature",
+      "geometry": {
+        "type": "point",
+        "coordinates": [4.648096059940842, -74.10154464835573 ]
+      },
+      "propierties": {
+        "Alto": 26.1,
+        "Ancho": 45.4,
+        "Profundidad": 32.8,
+          "capacidad": 20,
+          "modelo": "MS2032GAS",
+          "potencia":"N/E" ,
+          "voltaje": "N/E",
+          "precio":  389.900
+        }
+    },
+    {
+"type": "feature",
+"geometry": {
+"type": "point",
+"coordinates": [ 4.599278954345827, -74.08201825203726]
+},
+"propierties": {
+"Alto": 26,
+"Ancho": 43.5,
+"Profundidad": 29,
+"capacidad": 20,
+"modelo": "MMDF07S2MGMIDEA",
+"potencia":1050 ,
+"voltaje": 120,
+"precio": 299.911
+}
+},
+{
+"type": "feature",
+"geometry": {
+"type": "point",
+"coordinates": [ 4.607847853573912, -74.07717088423256]
+},
+"propierties": {
+"Alto": 33,
+"Ancho": 33,
+"Profundidad": 20,
+"capacidad": 22.6,
+"modelo": "M-NE1054F",
+"potencia":1000 ,
+"voltaje": 110,
+"precio": 2320.000
+}
+},
+{
+"type": "feature",
+"geometry": {
+"type": "point",
+"coordinates": [ 4.692804659836456, -74.04442367348274]
+},
+"propierties": {
+"Alto": 26.2,
+"Ancho": 45.5,
+"Profundidad": 31.5,
+"capacidad": 20,
+"modelo": "WM1807W",
+"potencia":"N/E" ,
+"voltaje": "N/E",
+"precio": 299.900
+}
+},
+{
+"type": "feature",
+"geometry": {
+"type": "point",
+"coordinates": [ 4.7018347717290885, -74.04892491951927]
+},
+"propierties": {
+"Alto": 43.95,
+"Ancho": 25.76,
+"Profundidad": 33,
+"capacidad": 20,
+"modelo":"MWO7X",
+"potencia":700 ,
+"voltaje": 127,
+"precio": 299.000
+}
+},
+{
+"type": "feature",
+"geometry": {
+"type": "point",
+"coordinates": [ 4.70164941536209, -74.03261787533732]
+},
+"propierties": {
+"Alto": 26.2,
+"Ancho": 45.2,
+"Profundidad": 36,
+"capacidad": 20,
+"modelo": 0.7,
+"potencia":110 ,
+"voltaje": "N/E",
+"precio": 343.780
+}
+}
+  ]
+}
