@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(mapa);
 
 L.marker([4.628178084725448, -74.0659272612135]).addTo(mapa)
-    .bindPopup('UD')
+    .bindPopup('UD.')
     .openPopup();
 
 async function cargarPuntos() {
