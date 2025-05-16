@@ -1,0 +1,11 @@
+.centrado {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+#mapa {
+    height: 500px;
+    width: 100%;
+    margin: 20px auto;
+}
